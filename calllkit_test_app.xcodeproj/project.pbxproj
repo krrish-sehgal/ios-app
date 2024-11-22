@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473E8FCD2CF0AAEE00966B01 /* callkit_test_ext.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 473E8FC62CF0AAED00966B01 /* callkit_test_ext.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		473E8FA62CF0AABC00966B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473E8F8D2CF0AABA00966B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473E8F942CF0AABA00966B01;
+			remoteInfo = calllkit_test_app;
+		};
+		473E8FB02CF0AABC00966B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473E8F8D2CF0AABA00966B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473E8F942CF0AABA00966B01;
+			remoteInfo = calllkit_test_app;
+		};
+		473E8FCB2CF0AAEE00966B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473E8F8D2CF0AABA00966B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473E8FC52CF0AAED00966B01;
+			remoteInfo = callkit_test_ext;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		473E8FD22CF0AAEE00966B01 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				473E8FCD2CF0AAEE00966B01 /* callkit_test_ext.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		473E8F952CF0AABA00966B01 /* calllkit_test_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calllkit_test_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		473E8FA52CF0AABC00966B01 /* calllkit_test_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calllkit_test_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		473E8FAF2CF0AABC00966B01 /* calllkit_test_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calllkit_test_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		473E8FC62CF0AAED00966B01 /* callkit_test_ext.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = callkit_test_ext.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		473E8FCE2CF0AAEE00966B01 /* Exceptions for "callkit_test_ext" folder in "callkit_test_ext" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 473E8FC52CF0AAED00966B01 /* callkit_test_ext */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		473E8F972CF0AABA00966B01 /* calllkit_test_app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = calllkit_test_app;
+			sourceTree = "<group>";
+		};
+		473E8FA82CF0AABC00966B01 /* calllkit_test_appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = calllkit_test_appTests;
+			sourceTree = "<group>";
+		};
+		473E8FB22CF0AABC00966B01 /* calllkit_test_appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = calllkit_test_appUITests;
+			sourceTree = "<group>";
+		};
+		473E8FC72CF0AAEE00966B01 /* callkit_test_ext */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				473E8FCE2CF0AAEE00966B01 /* Exceptions for "callkit_test_ext" folder in "callkit_test_ext" target */,
+			);
+			path = callkit_test_ext;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		473E8F922CF0AABA00966B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473E8FA22CF0AABC00966B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473E8FAC2CF0AABC00966B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473E8FC32CF0AAED00966B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473E8F8C2CF0AABA00966B01 = {
+			isa = PBXGroup;
+			children = (
+				473E8F972CF0AABA00966B01 /* calllkit_test_app */,
+				473E8FA82CF0AABC00966B01 /* calllkit_test_appTests */,
+				473E8FB22CF0AABC00966B01 /* calllkit_test_appUITests */,
+				473E8FC72CF0AAEE00966B01 /* callkit_test_ext */,
+				473E8F962CF0AABA00966B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		473E8F962CF0AABA00966B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				473E8F952CF0AABA00966B01 /* calllkit_test_app.app */,
+				473E8FA52CF0AABC00966B01 /* calllkit_test_appTests.xctest */,
+				473E8FAF2CF0AABC00966B01 /* calllkit_test_appUITests.xctest */,
+				473E8FC62CF0AAED00966B01 /* callkit_test_ext.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		473E8F942CF0AABA00966B01 /* calllkit_test_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473E8FB92CF0AABC00966B01 /* Build configuration list for PBXNativeTarget "calllkit_test_app" */;
+			buildPhases = (
+				473E8F912CF0AABA00966B01 /* Sources */,
+				473E8F922CF0AABA00966B01 /* Frameworks */,
+				473E8F932CF0AABA00966B01 /* Resources */,
+				473E8FD22CF0AAEE00966B01 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473E8FCC2CF0AAEE00966B01 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				473E8F972CF0AABA00966B01 /* calllkit_test_app */,
+			);
+			name = calllkit_test_app;
+			packageProductDependencies = (
+			);
+			productName = calllkit_test_app;
+			productReference = 473E8F952CF0AABA00966B01 /* calllkit_test_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		473E8FA42CF0AABC00966B01 /* calllkit_test_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473E8FBC2CF0AABC00966B01 /* Build configuration list for PBXNativeTarget "calllkit_test_appTests" */;
+			buildPhases = (
+				473E8FA12CF0AABC00966B01 /* Sources */,
+				473E8FA22CF0AABC00966B01 /* Frameworks */,
+				473E8FA32CF0AABC00966B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473E8FA72CF0AABC00966B01 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				473E8FA82CF0AABC00966B01 /* calllkit_test_appTests */,
+			);
+			name = calllkit_test_appTests;
+			packageProductDependencies = (
+			);
+			productName = calllkit_test_appTests;
+			productReference = 473E8FA52CF0AABC00966B01 /* calllkit_test_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		473E8FAE2CF0AABC00966B01 /* calllkit_test_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473E8FBF2CF0AABC00966B01 /* Build configuration list for PBXNativeTarget "calllkit_test_appUITests" */;
+			buildPhases = (
+				473E8FAB2CF0AABC00966B01 /* Sources */,
+				473E8FAC2CF0AABC00966B01 /* Frameworks */,
+				473E8FAD2CF0AABC00966B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473E8FB12CF0AABC00966B01 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				473E8FB22CF0AABC00966B01 /* calllkit_test_appUITests */,
+			);
+			name = calllkit_test_appUITests;
+			packageProductDependencies = (
+			);
+			productName = calllkit_test_appUITests;
+			productReference = 473E8FAF2CF0AABC00966B01 /* calllkit_test_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		473E8FC52CF0AAED00966B01 /* callkit_test_ext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473E8FCF2CF0AAEE00966B01 /* Build configuration list for PBXNativeTarget "callkit_test_ext" */;
+			buildPhases = (
+				473E8FC22CF0AAED00966B01 /* Sources */,
+				473E8FC32CF0AAED00966B01 /* Frameworks */,
+				473E8FC42CF0AAED00966B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				473E8FC72CF0AAEE00966B01 /* callkit_test_ext */,
+			);
+			name = callkit_test_ext;
+			packageProductDependencies = (
+			);
+			productName = callkit_test_ext;
+			productReference = 473E8FC62CF0AAED00966B01 /* callkit_test_ext.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		473E8F8D2CF0AABA00966B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					473E8F942CF0AABA00966B01 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					473E8FA42CF0AABC00966B01 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 473E8F942CF0AABA00966B01;
+					};
+					473E8FAE2CF0AABC00966B01 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 473E8F942CF0AABA00966B01;
+					};
+					473E8FC52CF0AAED00966B01 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 473E8F902CF0AABA00966B01 /* Build configuration list for PBXProject "calllkit_test_app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 473E8F8C2CF0AABA00966B01;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 473E8F962CF0AABA00966B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				473E8F942CF0AABA00966B01 /* calllkit_test_app */,
+				473E8FA42CF0AABC00966B01 /* calllkit_test_appTests */,
+				473E8FAE2CF0AABC00966B01 /* calllkit_test_appUITests */,
+				473E8FC52CF0AAED00966B01 /* callkit_test_ext */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		473E8F932CF0AABA00966B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473E8FA32CF0AABC00966B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473E8FAD2CF0AABC00966B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473E8FC42CF0AAED00966B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473E8F912CF0AABA00966B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473E8FA12CF0AABC00966B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473E8FAB2CF0AABC00966B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473E8FC22CF0AAED00966B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		473E8FA72CF0AABC00966B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473E8F942CF0AABA00966B01 /* calllkit_test_app */;
+			targetProxy = 473E8FA62CF0AABC00966B01 /* PBXContainerItemProxy */;
+		};
+		473E8FB12CF0AABC00966B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473E8F942CF0AABA00966B01 /* calllkit_test_app */;
+			targetProxy = 473E8FB02CF0AABC00966B01 /* PBXContainerItemProxy */;
+		};
+		473E8FCC2CF0AAEE00966B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473E8FC52CF0AAED00966B01 /* callkit_test_ext */;
+			targetProxy = 473E8FCB2CF0AAEE00966B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		473E8FB72CF0AABC00966B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		473E8FB82CF0AABC00966B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		473E8FBA2CF0AABC00966B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calllkit_test_app/Preview Content\"";
+				DEVELOPMENT_TEAM = N7G23CX6JJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.calllkit-test-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		473E8FBB2CF0AABC00966B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calllkit_test_app/Preview Content\"";
+				DEVELOPMENT_TEAM = N7G23CX6JJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.calllkit-test-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		473E8FBD2CF0AABC00966B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7G23CX6JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.calllkit-test-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calllkit_test_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calllkit_test_app";
+			};
+			name = Debug;
+		};
+		473E8FBE2CF0AABC00966B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7G23CX6JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.calllkit-test-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calllkit_test_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calllkit_test_app";
+			};
+			name = Release;
+		};
+		473E8FC02CF0AABC00966B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7G23CX6JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.calllkit-test-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calllkit_test_app;
+			};
+			name = Debug;
+		};
+		473E8FC12CF0AABC00966B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7G23CX6JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.calllkit-test-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calllkit_test_app;
+			};
+			name = Release;
+		};
+		473E8FD02CF0AAEE00966B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7G23CX6JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = callkit_test_ext/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = callkit_test_ext;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.calllkit-test-app.callkit-test-ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		473E8FD12CF0AAEE00966B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7G23CX6JJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = callkit_test_ext/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = callkit_test_ext;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.calllkit-test-app.callkit-test-ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473E8F902CF0AABA00966B01 /* Build configuration list for PBXProject "calllkit_test_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473E8FB72CF0AABC00966B01 /* Debug */,
+				473E8FB82CF0AABC00966B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		473E8FB92CF0AABC00966B01 /* Build configuration list for PBXNativeTarget "calllkit_test_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473E8FBA2CF0AABC00966B01 /* Debug */,
+				473E8FBB2CF0AABC00966B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		473E8FBC2CF0AABC00966B01 /* Build configuration list for PBXNativeTarget "calllkit_test_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473E8FBD2CF0AABC00966B01 /* Debug */,
+				473E8FBE2CF0AABC00966B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		473E8FBF2CF0AABC00966B01 /* Build configuration list for PBXNativeTarget "calllkit_test_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473E8FC02CF0AABC00966B01 /* Debug */,
+				473E8FC12CF0AABC00966B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		473E8FCF2CF0AAEE00966B01 /* Build configuration list for PBXNativeTarget "callkit_test_ext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473E8FD02CF0AAEE00966B01 /* Debug */,
+				473E8FD12CF0AAEE00966B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 473E8F8D2CF0AABA00966B01 /* Project object */;
+}
